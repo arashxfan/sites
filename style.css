@@ -1,0 +1,57 @@
+/* بدنه کل صفحه */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+
+  /* وسط‌چین کردن با Flex */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* کل ارتفاع صفحه */
+}
+
+/* کارت پروفایل */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* عکس پروفایل */
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* متن‌ها */
+.card h2 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.card p {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* دکمه */
+.card a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.card a:hover {
+  background-color: #45a049;
+}
